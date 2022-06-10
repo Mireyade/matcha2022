@@ -1,4 +1,4 @@
-body {
+body{
     background-color: #fffbf7;
 }
 
@@ -8,4 +8,55 @@ h1 {
     font-family: serif;
     font-size: 50px;
   }
+
+/*Pending to check the proper way to center this*/
+.form{
+    margin:auto;
+    width:16%;
+    display:flex;
+}
+
+button,input{
+    padding:6px 20px;
+    border-width: 1px;
+    border-radius: 8px;
+}
+
+
+button{
+    background-color:#025157;
+    color:#fff;
+    margin-left:-10px;
+    border-style: none;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    padding: 7px 20px;
+    cursor: pointer;
+}
+
+input{
+    border-style: solid;
+}
+
+  .generalParagraph{
+      color:#46484c;
+      text-align: center;
+  }
+
+  .promotionalText{
+     text-align: center;
+      color:#8b8b8bcc;
+  }
+
+  img{
+    width:150px;
+    margin: auto;
+    display: block;
+  }
+
+.imgOverview{
+    width: 70%;
+    margin: auto;
+    display: block;
+}
 
