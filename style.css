@@ -4,14 +4,17 @@ body{
 }
 
 h1 {
-    color: #025157;
     text-align: center;
+    font-size: 60px;
+  }
+
+  h1, h3 {
     font-family: 'Yanone Kaffeesatz', sans-serif;
-    font-size: 50px;
+    color: #025157;
   }
 
 
-.form{
+.main > .signUpform{
     margin:auto;
     width:16%;
     display:flex;
@@ -137,4 +140,25 @@ li {
 .main {
     margin-top: 140px;
     text-align: center;
+}
+
+/*Session 3 : Challenge 04*/
+.promo {
+    display: flex;
+    width:70%;
+    margin:100px auto;
+    align-items: center;
+}
+
+.publish{
+    margin-left: 40px;
+}
+
+.infoVideo{
+    display:flex;
+    flex-direction: column;
+}
+
+.infoVideo img{
+width: 50px;
 }
