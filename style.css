@@ -88,7 +88,7 @@ input{
 }
 
 .navBar {
-    width:70%;
+    width:60%;
     text-align: center;
     color:#025157;
     font-weight: 500;
@@ -138,7 +138,7 @@ li {
 }
 
 .main {
-    margin-top: 140px;
+    margin-top: 285px;
     text-align: center;
 }
 
@@ -161,4 +161,12 @@ li {
 
 .infoVideo img{
 width: 50px;
+}
+
+.fixedHeader {
+    position:fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #fffbf7;
 }
